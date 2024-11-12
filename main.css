@@ -1,0 +1,46 @@
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+padding-top: 150px;
+
+}
+.container{
+    text-align: center;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px;
+    background-color: rgb(94, 94, 114);
+    gap: 10px;
+    
+
+}
+#weather-btn{
+background-color: rgb(163, 163, 233);
+border-radius: 4px;
+height: 30px;
+width: 110px;
+margin-bottom: 5px;
+}
+#city-name{
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+#weather-info{
+    margin: 20px;
+    color: azure;
+}
+h1{
+    color: white; 
+    font-size: large;
+    font-weight: bolder;
+}
